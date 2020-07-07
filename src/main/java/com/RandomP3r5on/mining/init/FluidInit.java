@@ -6,7 +6,6 @@ import net.minecraft.block.FlowingFluidBlock;
 import net.minecraft.block.material.Material;
 import net.minecraft.fluid.FlowingFluid;
 import net.minecraft.fluid.Fluid;
-import net.minecraft.item.Items;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvents;
 import net.minecraftforge.fluids.FluidAttributes;
@@ -26,7 +25,8 @@ public class FluidInit {
     public static final RegistryObject<FlowingFluid> OIL_FLOWING = FLUIDS.register("oil_flowing", () -> new ForgeFlowingFluid.Flowing(FluidInit.OIL_PROPERTIES));
 
     public static final ForgeFlowingFluid.Properties OIL_PROPERTIES = new ForgeFlowingFluid.Properties(() -> OIL_FLUID.get(),() -> OIL_FLOWING.get(), FluidAttributes
-            .builder(OIL_STILL_RL, OIL_FLOWING_RL).density(5).sound(SoundEvents.BLOCK_LAVA_POP).overlay(OIL_OVERLAY_RL)).block(() -> FluidInit.OIL_BLOCK.get()).bucket(() -> Items.BUCKET);
+            .builder(OIL_STILL_RL, OIL_FLOWING_RL).density(5).sound(SoundEvents.BLOCK_LAVA_POP).overlay(OIL_OVERLAY_RL)).block(() -> FluidInit.OIL_BLOCK.get())
+            .bucket(() -> ItemInit.OIL_BUCKET.get());
 
     public static final RegistryObject<FlowingFluidBlock> OIL_BLOCK = BlockInit.BLOCKS.register("oil", () -> new FlowingFluidBlock(() -> FluidInit.OIL_FLUID.get(),
             Block.Properties.create(Material.LAVA).doesNotBlockMovement().doesNotBlockMovement().hardnessAndResistance(100F).noDrops()));
