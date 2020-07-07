@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "mining:oil_flowing",
+    "mining:oil_fluid"
+  ]
+}
