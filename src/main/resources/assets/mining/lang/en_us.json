@@ -9,6 +9,7 @@
   "block.mining.platinum_ore": "Platinum Ore",
   "block.mining.platinum_block": "Platinum Block",
   "block.mining.concrete_stairs": "Concrete Stairs",
+  "block.mining.wasteland_grass": "Wasteland Grass",
 
   "itemGroup.miningtab" : "Mining",
   "itemGroup.combattab" : "Tools and Combat",
@@ -25,7 +26,7 @@
   "item.mining.ruby_leggings": "Ruby Leggings",
   "item.mining.ruby_boots": "Ruby Boots",
 
-  "item.mining.platinum_pickaxe": "Platinum Pickaxe",
+  "item.mining.platinum_pickaxes": "Platinum Pickaxe",
   "item.mining.platinum_sword": "Platinum Sword",
   "item.mining.platinum_axe": "Platinum Axe",
   "item.mining.platinum_shovel": "Platinum Shovel",
