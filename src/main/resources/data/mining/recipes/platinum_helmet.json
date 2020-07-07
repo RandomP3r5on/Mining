@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "mining:platinum_ingot"
+    }
+  },
+  "result": {
+    "item": "mining:platinum_helmet"
+  }
+}

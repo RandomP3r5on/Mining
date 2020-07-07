@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "mining:ruby"
+    }
+  },
+  "result": {
+    "item": "mining:ruby_boots"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "item.mining.ruby": "Ruby",
+  "item.mining.platinum_ingot": "Platinum Ingot",
+  "item.mining.coke": "Coke",
+  "item.mining.oil_bucket": "Bucket of Oil",
+
+  "block.mining.ruby_block": "Ruby Block",
+  "block.mining.ruby_ore": "Ruby Ore",
+  "block.mining.platinum_ore": "Platinum Ore",
+  "block.mining.platinum_block": "Platinum Block",
+  "block.mining.concrete_stairs": "Concrete Stairs",
+
+  "itemGroup.miningtab" : "Mining",
+  "itemGroup.combattab" : "Tools and Combat",
+  "itemGroup.blockstab" : "Building",
+
+  "item.mining.ruby_sword": "Ruby Sword",
+  "item.mining.ruby_pickaxe": "Ruby Pickaxe",
+  "item.mining.ruby_axes": "Ruby Axe",
+  "item.mining.ruby_shovel": "Ruby Shovel",
+  "item.mining.ruby_hoe": "Ruby Hoe",
+
+  "item.mining.ruby_helmet": "Ruby Helmet",
+  "item.mining.ruby_chestplate": "Ruby Chestplate",
+  "item.mining.ruby_leggings": "Ruby Leggings",
+  "item.mining.ruby_boots": "Ruby Boots",
+
+  "item.mining.platinum_pickaxe": "Platinum Pickaxe",
+  "item.mining.platinum_sword": "Platinum Sword",
+  "item.mining.platinum_axe": "Platinum Axe",
+  "item.mining.platinum_shovel": "Platinum Shovel",
+  "item.mining.platinum_hoe": "Platinum Hoe",
+
+  "item.mining.platinum_helmet": "Platinum Helmet",
+  "item.mining.platinum_chestplate": "Platinum Chestplate",
+  "item.mining.platinum_leggings": "Platinum Leggings",
+  "item.mining.platinum_boots": "Platinum Boots"
+
+}

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "mining:block/wasteland_grass" },
+    "facing=south": { "model": "mining:block/wasteland_grass", "y": 180 },
+    "facing=west":  { "model": "mining:block/wasteland_grass", "y": 270 },
+    "facing=east":  { "model": "mining:block/wasteland_grass", "y": 90 }
+  }
+}

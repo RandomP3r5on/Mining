@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "mining:block/concrete_stairs" },
+    "facing=south": { "model": "mining:block/concrete_stairs", "y": 180 },
+    "facing=west":  { "model": "mining:block/concrete_stairs", "y": 270 },
+    "facing=east":  { "model": "mining:block/concrete_stairs", "y": 90 }
+  }
+}
